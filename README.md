@@ -36,6 +36,7 @@ supabase functions serve
 - Profiles, settings, onboarding state
 - Weddings, members, co-owner invites, stub subscriptions
 - Edge Functions for gated flows
+- **iOS app** (`ios/`) — welcome, auth, onboarding, profile (see [ios/README.md](ios/README.md))
 
 Timeline, chat, vendors, photo book, and payments (RevenueCat) are Phase 2+.
 

@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		063B9A151255414F68CE58A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F09E22D36F57B16E5BD7DAD /* Assets.xcassets */; };
+		0C8D156EAC3B7F4EB74465E3 /* OnboardingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E96355176B7488ACC3578F /* OnboardingService.swift */; };
+		16FCF3890BF10419FC74BB17 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B416CBCE4126C0E0A65A208 /* ProfileView.swift */; };
+		27D19431F755D9390E7D0675 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B91B25AFAF42A1E9F6869AE /* AppState.swift */; };
+		2FF9FE74168C5F9AC4AA308C /* OnboardingProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04247EEF2FC9AF3A5E06F4FA /* OnboardingProgress.swift */; };
+		313AA0D6C06F5A266D260E31 /* WeddingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493ECD69296CF8D9B52A9AA /* WeddingService.swift */; };
+		3B7E643A4B5CC43E0146B0DD /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0A8574001D1A1FE55886E /* MenuView.swift */; };
+		407B5782B2CDAB49F9411658 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D54689548C1F4BC8CC11C /* UserProfile.swift */; };
+		45D9C298ABD7B1BF90F60623 /* SupabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A4F08F92F7D38F5881342 /* SupabaseManager.swift */; };
+		58E6C38C3BBC29BE08284960 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A9F3B8419C6A3C114AE34D /* AuthView.swift */; };
+		59F68E14ACC71FE6CE4D3E99 /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7AD8C496922764471CBAE9 /* OnboardingFlowView.swift */; };
+		5C82344CD2AA28833BA62833 /* EdgeFunctionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D1866D39F5B4F23992D7BE /* EdgeFunctionClient.swift */; };
+		A4BE6E30D7D4CAB8053E8F18 /* WeddingHQApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417CED64CE589BF5F23661BA /* WeddingHQApp.swift */; };
+		A777B29D036CACA59C3A6796 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E14A9ED430B2C0CE236639 /* RootView.swift */; };
+		BC90281207010BE7389DC4D5 /* FallingHeartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3314DEE30B0B7BCE797ADFA /* FallingHeartsView.swift */; };
+		CBF90E1915EC0575130C8F57 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4D2E7AB34D4390F183DF3 /* AuthService.swift */; };
+		DACCF2FD6C92606AB15051A7 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 089C48DF6FC4EB2A57B47478 /* Supabase */; };
+		DF10EA290356DD5579B28A0C /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32446CF0E5F59A978CE3684 /* MainTabView.swift */; };
+		E66B2851499CCF4CC0784490 /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8C3DCF9529C09F53B39E78 /* ProfileService.swift */; };
+		E8349F8E44809FCDBC4683EF /* APIErrorPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B18D3324D3CE5BBADDA2EE /* APIErrorPayload.swift */; };
+		E9611B8FE52BFDD03C85EDF4 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B981D28E7BB31BC9293B52 /* WelcomeView.swift */; };
+		EAA7AF07EC2AAEA3D9255F3D /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAC118257714B63DB01492A /* AppConfig.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04247EEF2FC9AF3A5E06F4FA /* OnboardingProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingProgress.swift; sourceTree = "<group>"; };
+		0493ECD69296CF8D9B52A9AA /* WeddingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeddingService.swift; sourceTree = "<group>"; };
+		06B18D3324D3CE5BBADDA2EE /* APIErrorPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrorPayload.swift; sourceTree = "<group>"; };
+		0F09E22D36F57B16E5BD7DAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B416CBCE4126C0E0A65A208 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		22E96355176B7488ACC3578F /* OnboardingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingService.swift; sourceTree = "<group>"; };
+		23A9F3B8419C6A3C114AE34D /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		3DB0A8574001D1A1FE55886E /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		417CED64CE589BF5F23661BA /* WeddingHQApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeddingHQApp.swift; sourceTree = "<group>"; };
+		64D1866D39F5B4F23992D7BE /* EdgeFunctionClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeFunctionClient.swift; sourceTree = "<group>"; };
+		74E14A9ED430B2C0CE236639 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		7B91B25AFAF42A1E9F6869AE /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		8A7AD8C496922764471CBAE9 /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
+		A4B981D28E7BB31BC9293B52 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		A6A4D2E7AB34D4390F183DF3 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		AC3D54689548C1F4BC8CC11C /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		AD8C3DCF9529C09F53B39E78 /* ProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileService.swift; sourceTree = "<group>"; };
+		C16A4F08F92F7D38F5881342 /* SupabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseManager.swift; sourceTree = "<group>"; };
+		DA52181D8931A88312A36A3E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		DEAC118257714B63DB01492A /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		E13EF8F32B72D905C693BBB0 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		E32446CF0E5F59A978CE3684 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		E7684FF41EE9E6EE08ECE7F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EA6D501D448032ECFE0A727A /* WeddingHQ.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = WeddingHQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3314DEE30B0B7BCE797ADFA /* FallingHeartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingHeartsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D2BA399E94FA03B55DCD262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACCF2FD6C92606AB15051A7 /* Supabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		085C03B06EC660AF8871AFE0 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				9C4D170FAF2DF771131097A4 /* Auth */,
+				6C6C01FD47C045A2781866B8 /* Main */,
+				D8718124BA17E9D6DABF53AA /* Menu */,
+				49746CDF1D25BEE3420372D0 /* Onboarding */,
+				A36C85D97AAB4F99DAABA50F /* Profile */,
+				13D1F8CA05BAA5ED146DDA9F /* Welcome */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		13D1F8CA05BAA5ED146DDA9F /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				F3314DEE30B0B7BCE797ADFA /* FallingHeartsView.swift */,
+				A4B981D28E7BB31BC9293B52 /* WelcomeView.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		45DCA38726597748EB7A90A9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				74E14A9ED430B2C0CE236639 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		49746CDF1D25BEE3420372D0 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8A7AD8C496922764471CBAE9 /* OnboardingFlowView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		4D8A567FAB4EFC21A4DFB08B /* WeddingHQ */ = {
+			isa = PBXGroup;
+			children = (
+				0F09E22D36F57B16E5BD7DAD /* Assets.xcassets */,
+				E7684FF41EE9E6EE08ECE7F3 /* Info.plist */,
+				417CED64CE589BF5F23661BA /* WeddingHQApp.swift */,
+				45DCA38726597748EB7A90A9 /* App */,
+				CC187B7478AB55EE41ECB809 /* Core */,
+				085C03B06EC660AF8871AFE0 /* Features */,
+				A8CF94E1A05CD167469E0106 /* Models */,
+				DF846EEDF1EF081D043C6451 /* Services */,
+			);
+			path = WeddingHQ;
+			sourceTree = "<group>";
+		};
+		6C6C01FD47C045A2781866B8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E32446CF0E5F59A978CE3684 /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		78D5FDF13D7B03219904FC69 = {
+			isa = PBXGroup;
+			children = (
+				C3163995DBBD450538AB5747 /* Config */,
+				4D8A567FAB4EFC21A4DFB08B /* WeddingHQ */,
+				F7A4EC488B97182CC7BC49FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C4D170FAF2DF771131097A4 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				23A9F3B8419C6A3C114AE34D /* AuthView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		A36C85D97AAB4F99DAABA50F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1B416CBCE4126C0E0A65A208 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A8CF94E1A05CD167469E0106 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				06B18D3324D3CE5BBADDA2EE /* APIErrorPayload.swift */,
+				04247EEF2FC9AF3A5E06F4FA /* OnboardingProgress.swift */,
+				AC3D54689548C1F4BC8CC11C /* UserProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C3163995DBBD450538AB5747 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E13EF8F32B72D905C693BBB0 /* Debug.xcconfig */,
+				DA52181D8931A88312A36A3E /* Release.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		CC187B7478AB55EE41ECB809 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DEAC118257714B63DB01492A /* AppConfig.swift */,
+				7B91B25AFAF42A1E9F6869AE /* AppState.swift */,
+				C16A4F08F92F7D38F5881342 /* SupabaseManager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D8718124BA17E9D6DABF53AA /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				3DB0A8574001D1A1FE55886E /* MenuView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		DF846EEDF1EF081D043C6451 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A6A4D2E7AB34D4390F183DF3 /* AuthService.swift */,
+				64D1866D39F5B4F23992D7BE /* EdgeFunctionClient.swift */,
+				22E96355176B7488ACC3578F /* OnboardingService.swift */,
+				AD8C3DCF9529C09F53B39E78 /* ProfileService.swift */,
+				0493ECD69296CF8D9B52A9AA /* WeddingService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F7A4EC488B97182CC7BC49FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA6D501D448032ECFE0A727A /* WeddingHQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E9F59BEC729047FADCFAE09 /* WeddingHQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD5D36704402C7171469EB3 /* Build configuration list for PBXNativeTarget "WeddingHQ" */;
+			buildPhases = (
+				14F88D8822023B0BEFE15891 /* Sources */,
+				ACEA3EFF2EA6139A353FB471 /* Resources */,
+				7D2BA399E94FA03B55DCD262 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeddingHQ;
+			packageProductDependencies = (
+				089C48DF6FC4EB2A57B47478 /* Supabase */,
+			);
+			productName = WeddingHQ;
+			productReference = EA6D501D448032ECFE0A727A /* WeddingHQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DE7F882A4EA5457183FAFBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7E9F59BEC729047FADCFAE09 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1DEF07440603D7541847FF60 /* Build configuration list for PBXProject "WeddingHQ" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 78D5FDF13D7B03219904FC69;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D95FE5D334DBB0FD0B908B4C /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F7A4EC488B97182CC7BC49FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E9F59BEC729047FADCFAE09 /* WeddingHQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACEA3EFF2EA6139A353FB471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063B9A151255414F68CE58A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14F88D8822023B0BEFE15891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8349F8E44809FCDBC4683EF /* APIErrorPayload.swift in Sources */,
+				EAA7AF07EC2AAEA3D9255F3D /* AppConfig.swift in Sources */,
+				27D19431F755D9390E7D0675 /* AppState.swift in Sources */,
+				CBF90E1915EC0575130C8F57 /* AuthService.swift in Sources */,
+				58E6C38C3BBC29BE08284960 /* AuthView.swift in Sources */,
+				5C82344CD2AA28833BA62833 /* EdgeFunctionClient.swift in Sources */,
+				BC90281207010BE7389DC4D5 /* FallingHeartsView.swift in Sources */,
+				DF10EA290356DD5579B28A0C /* MainTabView.swift in Sources */,
+				3B7E643A4B5CC43E0146B0DD /* MenuView.swift in Sources */,
+				59F68E14ACC71FE6CE4D3E99 /* OnboardingFlowView.swift in Sources */,
+				2FF9FE74168C5F9AC4AA308C /* OnboardingProgress.swift in Sources */,
+				0C8D156EAC3B7F4EB74465E3 /* OnboardingService.swift in Sources */,
+				E66B2851499CCF4CC0784490 /* ProfileService.swift in Sources */,
+				16FCF3890BF10419FC74BB17 /* ProfileView.swift in Sources */,
+				A777B29D036CACA59C3A6796 /* RootView.swift in Sources */,
+				45D9C298ABD7B1BF90F60623 /* SupabaseManager.swift in Sources */,
+				407B5782B2CDAB49F9411658 /* UserProfile.swift in Sources */,
+				A4BE6E30D7D4CAB8053E8F18 /* WeddingHQApp.swift in Sources */,
+				313AA0D6C06F5A266D260E31 /* WeddingService.swift in Sources */,
+				E9611B8FE52BFDD03C85EDF4 /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9698081A31DB0452F4A7C0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WeddingHQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weddinghq.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		D0625E769999B8038EEBA4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WeddingHQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weddinghq.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		D92F6FD8611A1B71A750439C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA52181D8931A88312A36A3E /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeddingHQ/Info.plist;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3A0F84B664643B37F14DD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E13EF8F32B72D905C693BBB0 /* Debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeddingHQ/Info.plist;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEF07440603D7541847FF60 /* Build configuration list for PBXProject "WeddingHQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0625E769999B8038EEBA4D7 /* Debug */,
+				9698081A31DB0452F4A7C0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AFD5D36704402C7171469EB3 /* Build configuration list for PBXNativeTarget "WeddingHQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3A0F84B664643B37F14DD87 /* Debug */,
+				D92F6FD8611A1B71A750439C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D95FE5D334DBB0FD0B908B4C /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		089C48DF6FC4EB2A57B47478 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D95FE5D334DBB0FD0B908B4C /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7DE7F882A4EA5457183FAFBB /* Project object */;
+}

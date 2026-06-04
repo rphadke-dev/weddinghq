@@ -4,3 +4,8 @@
 *.log
 supabase/.branches
 supabase/.temp
+.tools/
+ios/Config/Secrets.xcconfig
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcworkspace/xcuserdata/
+ios/DerivedData/
