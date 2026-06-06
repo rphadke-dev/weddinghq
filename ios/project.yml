@@ -11,10 +11,16 @@ settings:
     CODE_SIGN_STYLE: Automatic
     INFOPLIST_FILE: WeddingHQ/Info.plist
     PRODUCT_BUNDLE_IDENTIFIER: com.weddinghq.app
+    PRODUCT_NAME: WeddingHQ
+    ALWAYS_SEARCH_USER_PATHS: NO
+    GENERATE_INFOPLIST_FILE: NO
+  configs:
+    Debug:
+      ONLY_ACTIVE_ARCH: YES
 packages:
-  Supabase:
+  supabase-swift:
     url: https://github.com/supabase/supabase-swift
-    from: "2.20.0"
+    exactVersion: "2.46.0"
 targets:
   WeddingHQ:
     type: application
@@ -27,13 +33,20 @@ targets:
       Debug: Config/Debug.xcconfig
       Release: Config/Release.xcconfig
     dependencies:
-      - package: Supabase
-        product: Supabase
+      - package: supabase-swift
+        products:
+          - Supabase
     settings:
       base:
+        PRODUCT_NAME: WeddingHQ
+        ALWAYS_SEARCH_USER_PATHS: NO
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: NO
         TARGETED_DEVICE_FAMILY: "1,2"
         SUPPORTS_MACCATALYST: false
+      configs:
+        Debug:
+          ONLY_ACTIVE_ARCH: YES
 schemes:
   WeddingHQ:
     build:

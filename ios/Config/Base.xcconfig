@@ -1,2 +1,2 @@
-SLASH = /
+// Optional local overrides (gitignored)
 #include? "Secrets.xcconfig"

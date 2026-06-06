@@ -50,15 +50,21 @@ struct ProfileView: View {
                             if let settings {
                                 Toggle("Animations", isOn: .init(
                                     get: { settings.animationsEnabled },
-                                    set: { updateSettings(settings) { $0.animationsEnabled = $1 } }
+                                    set: { newValue in
+                                        updateSettings(settings) { $0.animationsEnabled = newValue }
+                                    }
                                 ))
                                 Toggle("Push notifications", isOn: .init(
                                     get: { settings.pushNotificationsEnabled },
-                                    set: { updateSettings(settings) { $0.pushNotificationsEnabled = $1 } }
+                                    set: { newValue in
+                                        updateSettings(settings) { $0.pushNotificationsEnabled = newValue }
+                                    }
                                 ))
                                 Toggle("Widgets", isOn: .init(
                                     get: { settings.widgetsEnabled },
-                                    set: { updateSettings(settings) { $0.widgetsEnabled = $1 } }
+                                    set: { newValue in
+                                        updateSettings(settings) { $0.widgetsEnabled = newValue }
+                                    }
                                 ))
                             }
                         }

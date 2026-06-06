@@ -22,8 +22,9 @@ Select the **WeddingHQ** scheme and an iPhone simulator, then **Run** (⌘R).
 
 | File | Purpose |
 |------|---------|
-| `Config/Debug.xcconfig` | Local Supabase URL + anon key (default) |
-| `Config/Secrets.xcconfig` | Copy from `Secrets.xcconfig.example` for hosted Supabase (gitignored) |
+| `WeddingHQ/Info.plist` | Local Supabase URL + anon key (default for simulator) |
+| `Config/Debug.xcconfig` | Build flags only (`PRODUCT_NAME`, `ALWAYS_SEARCH_USER_PATHS`) |
+| `Config/Secrets.xcconfig` | Optional overrides (gitignored) |
 
 Simulator uses `http://127.0.0.1:54321` with `NSAllowsLocalNetworking` enabled.
 
@@ -50,7 +51,21 @@ supabase functions serve
 
 ## Troubleshooting
 
-- **Build fails resolving Supabase:** File → Packages → Reset Package Caches
+- **`Multiple commands produce .../.app`:** Fixed in `Config/Debug.xcconfig` (xcconfig treats `//` as a comment) and `PRODUCT_NAME` in `project.yml`. Close Xcode, run `./scripts/generate-xcodeproj.sh`, then **Product → Clean Build Folder** (⇧⌘K).
+- **`Unable to resolve module dependency: Supabase`:** Usually a **stale or half-downloaded** Swift package cache (often after deleting DerivedData while Xcode is open, or building before packages finish resolving). The product name `Supabase` is correct — run the steps below; do not rename imports.
+- **Missing package product `Supabase` / No such module `Supabase`:**
+  1. **Quit Xcode** (⌘Q) — close any running build
+  2. Terminal:
+     ```bash
+     rm -rf ~/Library/Developer/Xcode/DerivedData/WeddingHQ-*
+     cd ~/Projects/weddinghq/ios
+     ./scripts/generate-xcodeproj.sh
+     xcodebuild -resolvePackageDependencies -scheme WeddingHQ
+     ```
+  3. Reopen `WeddingHQ.xcodeproj`
+  4. **File → Packages → Resolve Package Versions** (wait until finished)
+  5. **Product → Clean Build Folder** (⇧⌘K), then **Run** (⌘R)
+- **Build database locked:** Only one build at a time — quit Xcode or stop the other `xcodebuild`, then clean DerivedData.
 - **Network errors on device:** use your Mac’s LAN IP in `Debug.xcconfig`, not `127.0.0.1`
 - **NOT_VERIFIED on onboarding:** confirm email or use Google/Apple/phone OTP
 

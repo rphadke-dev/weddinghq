@@ -319,11 +319,14 @@
 		9698081A31DB0452F4A7C0D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = WeddingHQ/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.weddinghq.app;
+				PRODUCT_NAME = WeddingHQ;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.9;
 			};
@@ -332,11 +335,15 @@
 		D0625E769999B8038EEBA4D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = WeddingHQ/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.weddinghq.app;
+				PRODUCT_NAME = WeddingHQ;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.9;
 			};
@@ -346,8 +353,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA52181D8931A88312A36A3E /* Release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = WeddingHQ/Info.plist;
+				PRODUCT_NAME = WeddingHQ;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -357,8 +367,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E13EF8F32B72D905C693BBB0 /* Debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = WeddingHQ/Info.plist;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = WeddingHQ;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -392,8 +406,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/supabase/supabase-swift";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.20.0;
+				kind = exactVersion;
+				version = 2.46.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
